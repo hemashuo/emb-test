@@ -1,0 +1,11 @@
+解决Delphi 13编译的程序在XP系统中运行时报错缺少UIAutomationCore.dll文件的问题
+
+XP 32位:
+把XP_x86\UIAutomationCore.dll放进C:\Windows\System32文件夹内
+
+
+XP 64位
+1.把XP_x64\UIAutomationCore.dll放进C:\Windows\System32文件夹内
+2.把XP_x86\UIAutomationCore.dll放进C:\Windows\SysWoW64文件夹内
+
+渣渣皮2026.01.20
